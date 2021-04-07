@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Icon-notepad.svg/1200px-Icon-notepad.svg.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Notepad</h1>
+        <h2>Text to Save:</h2>
+
+        <textarea id="inputTextToSave" cols="80" rows="20" autofocus></textarea>
+
+        <div class="flexing">
+            <p>Filename to Save As:</p>
+            <input type="text" id="inputFileNameToSaveAs">
+            <button onclick="saveTextAsFile()">Save Text to File</button>
+        </div>
+
+        <div class="flexing">
+            <p>Select a File to Load:</p>
+            <input type="file" id="fileToLoad">
+            <button onclick="loadFileAsText()">Load Selected File</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  
+</body></html>

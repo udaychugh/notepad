@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #a8dadc;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+p,
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1d3557;
+}
+
+.container h2 {
+    color: #1d3557;
+}
+
+textarea {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #f1faee;
+    -webkit-box-shadow: 9px 9px 8px #cdd5ca,
+        -9px -9px 8px #ffffff;
+    box-shadow: 9px 9px 8px #cdd5ca,
+        -9px -9px 8px #ffffff;
+    border: 0;
+    outline: 0;
+    margin: 20px 0;
+    resize: none;
+    padding: 20px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexing{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.flexing p{
+    color: #1d3557;
+}
+
+.flexing button,
+.flexing input,
+.flexing input[type="file"]{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 0 5px;
+    transition: all 0.3s linear;
+}
+
+.flexing button:hover{
+    cursor: pointer;
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+.flexing button:active,
+.flexing button:focus{
+    outline: none;
+}
